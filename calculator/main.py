@@ -6,6 +6,9 @@ class Calculator:
     def add(*args):
         return sum(args)
 
+    def substract(a, b):
+        return a - b
+
     def multiply(*args):
         return reduce(operator.mul, args)
 

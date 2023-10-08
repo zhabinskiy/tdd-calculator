@@ -15,6 +15,13 @@ def test_add_many_numbers():
     assert result == 14
 
 
+def test_substract_two_numbers():
+    calculator = Calculator
+
+    result = calculator.substract(7, 4)
+    assert result == 3
+
+
 def test_multiply_two_numbers():
     calculator = Calculator
 
