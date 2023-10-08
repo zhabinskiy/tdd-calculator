@@ -8,3 +8,9 @@ class Calculator:
 
     def multiply(*args):
         return reduce(operator.mul, args)
+
+    def divide(a, b):
+        try:
+            return a / b
+        except ZeroDivisionError:
+            return 0
